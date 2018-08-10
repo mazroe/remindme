@@ -1,0 +1,12 @@
+{
+  "name": "Start on Heroku: Go",
+  "description": "Go remind me App",
+  "keywords": [
+    "remindme",
+    "go",
+    "sample",
+    "example"
+  ],
+  "website": "https://github.com/mazroe/remindme",
+  "repository": "https://github.com/mazroe/remindme"
+}
