@@ -1,0 +1,21 @@
+{
+  "name": "remindme",
+  "description": "remind me of things I want to keep in mind through this life",
+  "scripts": {
+  },
+  "env": {
+  },
+  "formation": {
+    "web": {
+      "quantity": 1
+    }
+  },
+  "addons": [
+
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/go"
+    }
+  ]
+}
