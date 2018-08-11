@@ -4,7 +4,10 @@ body {
 
 blockquote {
     border: 0px;
+    margin: 0px;
+    padding: 0px;
 }
+
 
 .quotation{
     font-size: 30px;
