@@ -2,10 +2,14 @@
   {{template "header.tmpl.html"}}
 <body>
 
-<div class="jumbotron text-center">
-  <div class="container">
-    <h1>Remind Me please! 🐏</h1>
-  </div>
+
+<div class="container">
+  {{range .qoutes}}
+    <blockquote>
+      <p class="quotation">{{.Text}}</p>
+      <footer>{{.Auther}}</footer>
+    </blockquote> 
+  {{end}}
 </div>
 
 </body>
