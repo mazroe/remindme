@@ -3,7 +3,7 @@ package db
 import "testing"
 
 func TestSave(t *testing.T) {
-	err := Save("the world is my country")
+	err := Save("the world is my country", "MazroE")
 	if err != nil {
 		t.Error("faild to save qoute")
 	}
