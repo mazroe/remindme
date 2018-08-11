@@ -1,0 +1,42 @@
+body {
+    margin-top: 40px;
+}
+
+blockquote {
+    border: 0px;
+}
+
+.quotation{
+    font-size: 30px;
+    quotes: "\201C""\201D""\2018""\2019";
+    padding: 10px 20px;
+    line-height: 1.4;
+}
+  
+.quotation:before {
+    content: open-quote;
+    display: inline;
+    line-height: 0;
+    left: -10px;
+    position: relative;
+    top: 22px;
+    color: #ccc;
+    font-size: 2.5em;
+}
+.quotation::after {
+    content: close-quote;
+    display: inline;
+    line-height: 0;
+    left: 10px;
+    position: relative;
+    top: 25px;
+    color: #ccc;
+    font-size: 2.5em;
+}
+
+footer{
+    margin:0;
+    text-align: right;
+    font-size: 1.5em;
+    font-style: italic;
+}
