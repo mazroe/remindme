@@ -10,7 +10,7 @@ blockquote {
 
 
 .quotation{
-    font-size: 30px;
+    font-size: 25px;
     quotes: "\201C""\201D""\2018""\2019";
     padding: 10px 20px;
     line-height: 1.4;
@@ -22,9 +22,9 @@ blockquote {
     line-height: 0;
     left: -10px;
     position: relative;
-    top: 22px;
+    top: 19px;
     color: #ccc;
-    font-size: 2.5em;
+    font-size: 2.3em;
 }
 .quotation::after {
     content: close-quote;
@@ -32,9 +32,9 @@ blockquote {
     line-height: 0;
     left: 10px;
     position: relative;
-    top: 25px;
+    top: 23px;
     color: #ccc;
-    font-size: 2.5em;
+    font-size: 2.3em;
 }
 
 footer{
